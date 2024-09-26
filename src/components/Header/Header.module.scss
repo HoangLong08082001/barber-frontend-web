@@ -1,0 +1,35 @@
+.wrapper {
+  width: 100%;
+  height: 70px;
+  top: 0; /* Vị trí dính */
+  position: -webkit-sticky; /* Hỗ trợ các trình duyệt cũ */
+  position: sticky; /* Thanh sẽ dính khi cuộn tới */
+  z-index: 1000;
+  background-color: #9f814f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  .left {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    .link {
+      color: white;
+      font-size: 20px;
+      text-decoration: none;
+      font-weight: 700;
+    }
+  }
+  .right {
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    .link {
+      color: white;
+      font-size: 20px;
+      text-decoration: none;
+      font-weight: 700;
+    }
+  }
+}
